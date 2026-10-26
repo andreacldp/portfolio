@@ -5,20 +5,20 @@
 
 export const profile = {
   name: 'Andrea De la Peña Contreras',
-  initials: 'ADP',
+  initials: 'ADPC',
   tagline: 'Data Science & Mathematical Engineering student',
-  sub: 'Tecnológico de Monterrey · machine learning · optimization · scientific data',
-  email: '[EMAIL]',
+  sub: 'Tecnológico de Monterrey · machine learning · optimization · data science',
+  email: '[andrea.edlpc@hotmail.com]',
   github: 'https://github.com/andreacldp',
   githubLabel: 'github.com/andreacldp',
-  linkedin: '[LINK]',
+  linkedin: '[https://www.linkedin.com/in/andreacldp/]',
   cv: '[LINK]',
 };
 
 export const about = {
   paragraphs: [
     "I'm a fifth-semester Data Science & Mathematical Engineering student at Tecnológico de Monterrey and a Data Analysis Intern at CYDSA. I like problems where math meets messy, real-world data: building models that predict, and decisions that hold up under uncertainty.",
-    "Lately I'm drawn to science-driven data — astrophysics, geosciences and neuroimaging — fields where a good model helps you see something that was hiding in the noise.",
+    "Lately I'm drawn to science-driven data, fields where a good model helps you see something that was hiding in the noise.",
   ],
   panel: [
     ['NAME', 'Andrea De la Peña Contreras'],
@@ -29,7 +29,7 @@ export const about = {
     ['CURRENT', 'Data Analysis Intern @ CYDSA'],
     ['BASE', 'Monterrey, MX · 25.68°N 100.31°W'],
     ['LANGUAGES', 'Spanish (native) · English (C1)'],
-    ['FOCUS', 'ML · stochastic optimization · multivariate statistics'],
+    ['FOCUS', 'ML · data science · deep learning · computer vision'],
     ['PRINCIPLES', 'curiosity · discipline · continuous improvement'],
   ],
   status: 'Open to internships & research',

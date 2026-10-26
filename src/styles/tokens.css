@@ -1,0 +1,59 @@
+/* ─────────────────────────────────────────────────────────────
+   Design tokens — change the whole look from here.
+   ───────────────────────────────────────────────────────────── */
+:root {
+  /* Color */
+  --c-bg: #060608;
+  --c-bg-raised: #0b0b0f;
+  --c-bg-panel: rgba(13, 13, 18, 0.72);
+  --c-white: #f6f3ec;
+  --c-cream: #e9dfc8;
+  --c-cream-dim: rgba(233, 223, 200, 0.68);
+  --c-muted: #8d8778;
+  --c-line: rgba(233, 223, 200, 0.16);
+  --c-line-strong: rgba(233, 223, 200, 0.42);
+  --c-accent: #f4b6c8;            /* the single soft-pink accent */
+  --c-accent-dim: rgba(244, 182, 200, 0.4);
+  --c-accent-glow: rgba(244, 182, 200, 0.16);
+
+  /* Type */
+  --font-display: "Instrument Serif", "Cormorant Garamond", Georgia, serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --fs-micro: 0.6875rem;   /* 11px — HUD labels */
+  --fs-small: 0.8125rem;   /* 13px */
+  --fs-body: 1rem;
+  --fs-lead: clamp(1.0625rem, 1rem + 0.35vw, 1.25rem);
+  --fs-h3: clamp(1.5rem, 1.25rem + 0.9vw, 2rem);
+  --fs-h2: clamp(2.25rem, 1.5rem + 2.8vw, 4rem);
+  --fs-hero: clamp(2.75rem, 1.4rem + 4.2vw, 5.25rem);
+
+  --lh-tight: 1.02;
+  --lh-body: 1.65;
+  --tracking-mono: 0.08em;
+
+  /* Space (4px base) */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+  --sp-9: 96px;
+  --sp-10: 144px;
+
+  /* Layout */
+  --container: 1180px;
+  --gutter: clamp(16px, 4vw, 48px);
+  --section-y: clamp(96px, 12vw, 176px);
+  --nav-h: 60px;
+
+  /* Lines & motion */
+  --hair: 1px;
+  --corner: 14px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur: 700ms;
+}

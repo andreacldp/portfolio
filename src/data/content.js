@@ -12,7 +12,6 @@ export const profile = {
   github: 'https://github.com/andreacldp',
   githubLabel: 'github.com/andreacldp',
   linkedin: '[https://www.linkedin.com/in/andreacldp/]',
-  cv: '[LINK]',
 };
 
 export const about = {
@@ -32,7 +31,7 @@ export const about = {
     ['FOCUS', 'ML · data science · deep learning · computer vision'],
     ['PRINCIPLES', 'curiosity · discipline · continuous improvement'],
   ],
-  status: 'Open to internships & research',
+  status: 'Currently exploring ML for scientific data',
 };
 
 // To add a project: copy one object, bump the id, pick a glyph
@@ -117,5 +116,5 @@ export const skills = [
 ];
 
 export const contact = {
-  lead: "I'm looking for data science and research internships. If you're working on something where models meet real data, I'd love to hear about it.",
+  lead: "Want to talk about a project, a dataset, or anything where models meet real data? Feel free to reach out.",
 };

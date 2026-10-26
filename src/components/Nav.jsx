@@ -31,7 +31,6 @@ export default function Nav() {
             <a key={to} href={to}><span>{n}</span>{label}</a>
           ))}
         </div>
-        <a className="btn" href={href(profile.cv)} {...external(profile.cv)}>CV ↓</a>
       </div>
     </nav>
   );

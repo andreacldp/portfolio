@@ -18,11 +18,6 @@ export default function Contact() {
         <div className="contact__grid">
           <div className="reveal">
             <p className="contact__lead">{contact.lead}</p>
-            <div className="contact__ctas">
-              <a className="btn btn--solid" href={href(profile.cv)} {...external(profile.cv)}>
-                Download CV ↓ {isPlaceholder(profile.cv) ? profile.cv : ''}
-              </a>
-            </div>
           </div>
           <div className="channels reveal">
             {channels.map(([k, label, to]) => (

@@ -45,7 +45,6 @@ export default function Hero() {
         <p className="hero__sub">{profile.sub}</p>
         <div className="hero__ctas">
           <a className="btn btn--solid" href="#projects">View projects →</a>
-          <a className="btn" href={href(profile.cv)} {...external(profile.cv)}>Download CV ↓</a>
         </div>
       </div>
 

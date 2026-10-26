@@ -8,10 +8,10 @@ export const profile = {
   initials: 'ADPC',
   tagline: 'Data Science & Mathematical Engineering student',
   sub: 'Tecnológico de Monterrey · machine learning · optimization · data science',
-  email: '[andrea.edlpc@hotmail.com]',
+  email: 'andrea.edlpc@hotmail.com',
   github: 'https://github.com/andreacldp',
   githubLabel: 'github.com/andreacldp',
-  linkedin: '[https://www.linkedin.com/in/andreacldp/]',
+  linkedin: 'https://www.linkedin.com/in/andreacldp/',
 };
 
 export const about = {
